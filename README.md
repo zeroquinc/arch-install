@@ -1,6 +1,6 @@
 # Things to do after an Arch install
 
-## Dual monitors with different refresh rates
+## Dual monitors with different refresh rates on NVIDIA
 
 In terminal:
 
