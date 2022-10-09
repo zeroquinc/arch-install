@@ -1,5 +1,10 @@
 # Things to do after an Arch install
 
+- [Things to do after an Arch install](#things-to-do-after-an-arch-install)
+  * [Dual monitors with different refresh rates on NVIDIA](#dual-monitors-with-different-refresh-rates-on-nvidia)
+  * [Install Pamac](#install-pamac)
+  * [Enable Emoji](#enable-emoji)
+
 ## Dual monitors with different refresh rates on NVIDIA
 
 In terminal:
@@ -8,7 +13,7 @@ In terminal:
 
 Add the following lines:
 
-```
+```zsh
 KWIN_X11_REFRESH_RATE=144000 #change value to your highest refresh rate
 KWIN_X11_NO_SYNC_TO_VBLANK=1
 KWIN_X11_FORCE_SOFTWARE_VSYNC=1
@@ -37,7 +42,7 @@ In terminal:
 
 <img src="https://user-images.githubusercontent.com/39315068/194762868-aea3a60b-5047-463c-a3a2-f6679b4773a6.png" width=50% height=50%>
 
-## Enable emoji's
+## Enable emoji
 
 In terminal:
 
