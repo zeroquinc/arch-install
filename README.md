@@ -3,20 +3,22 @@
 ## Dual monitors with different refresh rates
 
 In terminal:
+
 `sudo nano /etc/environment/` 
 
 Add the following lines:
 
 ```
-KWIN_X11_REFRESH_RATE=144000 
+KWIN_X11_REFRESH_RATE=144000 #change value to your highest refresh rate
 KWIN_X11_NO_SYNC_TO_VBLANK=1
 KWIN_X11_FORCE_SOFTWARE_VSYNC=1
-CLUTTER_DEFAULT_FPS=144
-__GL_SYNC_DISPLAY_DEVICE=DP-2
+CLUTTER_DEFAULT_FPS=144 #change value to your highest refresh rate
+__GL_SYNC_DISPLAY_DEVICE=DP-2 #change value to your highest refresh rate monitor name
 __GL_SYNC_TO_VBLANK=0
 ```
 
 In terminal:
+
 `sudo nvidia-settings`
 
 - Enable `Force Composition Pipeline` for both monitors.
