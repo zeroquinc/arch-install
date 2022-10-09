@@ -1,6 +1,5 @@
 # Things to do after an Arch install
 
-- [Things to do after an Arch install](#things-to-do-after-an-arch-install)
   * [Dual monitors with different refresh rates on NVIDIA](#dual-monitors-with-different-refresh-rates-on-nvidia)
   * [Install Pamac](#install-pamac)
   * [Enable Emoji](#enable-emoji)
