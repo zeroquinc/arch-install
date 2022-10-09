@@ -22,11 +22,8 @@ In terminal:
 `sudo nvidia-settings`
 
 - Enable `Force Composition Pipeline` for both monitors.
-
 - Uncheck `Sync to VBlank` and `Allow Flipping`.
-
 - Under `X Server XVideo Settings` set the synced display to your highest refresh rate.
-
 - Save to X Configuration File.
 
 ## Install Pamac
@@ -35,8 +32,7 @@ In terminal:
 
 `yay -S pamac-aur`
 
-Open Pamac and go to Preferences -> Third Party
+- Open Pamac and go to Preferences -> Third Party
+- Make sure these settings are checked.
 
-Make sure these settings are checked.
-
-![image](https://user-images.githubusercontent.com/39315068/194762868-aea3a60b-5047-463c-a3a2-f6679b4773a6.png)
+<img src="https://user-images.githubusercontent.com/39315068/194762868-aea3a60b-5047-463c-a3a2-f6679b4773a6.png" width=50% height=50%>
