@@ -36,3 +36,13 @@ In terminal:
 - Make sure these settings are checked.
 
 <img src="https://user-images.githubusercontent.com/39315068/194762868-aea3a60b-5047-463c-a3a2-f6679b4773a6.png" width=50% height=50%>
+
+## Enable emoji's
+
+In terminal:
+
+`sudo pacman -S noto-fonts-emoji`
+
+To enable emoji's in notifications and windows:
+
+`sudo pacman -S noto-color-emoji-fontconfig`
