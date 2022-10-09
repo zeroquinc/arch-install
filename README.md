@@ -36,6 +36,7 @@ In terminal:
 `yay -S pamac-aur`
 
 Open Pamac and go to Preferences -> Third Party
+
 Make sure these settings are checked.
 
 ![image](https://user-images.githubusercontent.com/39315068/194762868-aea3a60b-5047-463c-a3a2-f6679b4773a6.png)
