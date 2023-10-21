@@ -1,8 +1,14 @@
-# Arch
+# Quick Links
 
-  * [Dual monitors with different refresh rates on NVIDIA](#dual-monitors-with-different-refresh-rates-on-nvidia)
-  * [Install Pamac](#install-pamac)
-  * [Enable Emoji](#enable-emoji)
+## Arch
+- [Dual monitors with different refresh rates on NVIDIA](#dual-monitors-with-different-refresh-rates-on-nvidia)
+- [Install Pamac](#install-pamac)
+- [Enable Emoji](#enable-emoji)
+
+## Ubuntu
+- [2 Different SSH profiles for GitHub on Ubuntu](#2-different-ssh-profiles-for-github-on-ubuntu)
+
+# Arch
 
 ## Dual monitors with different refresh rates on NVIDIA
 
