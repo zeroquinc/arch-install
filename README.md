@@ -7,6 +7,7 @@
 
 ## Ubuntu
 - [2 Different SSH profiles for GitHub on Ubuntu](#2-different-ssh-profiles-for-github-on-ubuntu)
+- [Aliasses to make custom commands for terminal](#aliasses-to-make-custom-commands-for-terminal)
 
 # Arch
 
@@ -108,3 +109,18 @@ $ ssh -T git@work.github.com
 Hi zeroquinc! You've successfully authenticated, but GitHub does not provide shell access.
 ```
 Note that you'll have to change the hostname (github / work.github) depending on what key/identity you'd like to use. But now you should be good to go! :)
+
+## Aliasses to make custom commands for terminal
+
+If you want to create a simple command to tail the log file, you can create an alias in your shell.
+
+You can add the following line as example to your ~/.bash_aliases file:
+
+```alias skywalkerlogs="tail -f /opt/scripts/Code/ServerBot_v2/logs/serverbot.log"```
+
+Then, source your ~/.bash_aliases file to apply the changes:
+
+```source ~/.bash_aliases```
+
+Now, you can use the ```tailserverbot``` command to tail the log file.
+
