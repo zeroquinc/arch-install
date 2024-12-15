@@ -1,5 +1,9 @@
 # Quick Links
 
+## Windows
+
+- [Disable NVIDIA overlay only in certain apps](#disable-nvidia-overlay-only-in-certain-apps)
+
 ## Arch
 - [Dual monitors with different refresh rates on NVIDIA](#dual-monitors-with-different-refresh-rates-on-nvidia)
 - [Install Pamac](#install-pamac)
@@ -8,6 +12,31 @@
 ## Ubuntu
 - [2 Different SSH profiles for GitHub on Ubuntu](#2-different-ssh-profiles-for-github-on-ubuntu)
 - [Aliasses to make custom commands for terminal](#aliasses-to-make-custom-commands-for-terminal)
+
+# Windows
+
+## Disable NVIDIA overlay only in certain apps
+
+Having the NVIDIA overlay be enabled on unwanted apps can have one of two unwanted side effects:
+
+- The overlay can’t be used for games: no ShadowPlay recording is possible;
+- A folder will be created in the folder where you save your recordings.
+
+This can get very annoying very quickly when using apps such as Godot, Elgato’s Stream Deck and Wave Link software and such…
+
+### NVidia Profile Inspector
+
+To tweak what app should use the overlay you will need the NVidia Profile Inspector.
+
+Select a profile or create one and add the executables to it.
+
+Editing setting 0x809D5F60 and setting it to 0x10000000 will disable the overlay for the given apps. If the setting doesn’t appear you will need to click the button to show the unknown settings.
+
+![nvidiaProfileInspector_24-06-23_10920](https://github.com/user-attachments/assets/b19dde8f-6f69-4765-9391-3a481c336348)
+
+The overlay should no longer hook into the app on the next launch.
+
+(Thanks to https://blog.senpaisilver.com/software/disable-nvidia-overlay-only-in-certain-apps/)
 
 # Arch
 
