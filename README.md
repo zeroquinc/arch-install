@@ -3,6 +3,7 @@
 ## Windows
 
 - [Disable NVIDIA overlay only in certain apps](#disable-nvidia-overlay-only-in-certain-apps)
+- [Don't close Firefox menu when opening history and favorites](#dont-close-firefox-menu-when-opening-history-and-favorites)
 
 ## Arch
 - [Dual monitors with different refresh rates on NVIDIA](#dual-monitors-with-different-refresh-rates-on-nvidia)
@@ -37,6 +38,20 @@ Editing setting 0x809D5F60 and setting it to 0x10000000 will disable the overlay
 The overlay should no longer hook into the app on the next launch.
 
 (Thanks to https://blog.senpaisilver.com/software/disable-nvidia-overlay-only-in-certain-apps/)
+
+## Don't close Firefox menu when opening history and favorites
+
+- In a new tab, type or paste `about:config` in the address bar and press Enter/Return. Click the button accepting the risk.
+
+- In the search box in the page, type or paste `browser.bookmarks.openInTabClosesMenu` and pause while the list is filtered
+
+- Double-click the `browser.bookmarks.openInTabClosesMenu` preference to switch the value from true to false -- if you decide to undo this later, you can double-click it again, or click the left-arching Reset arrow at the right end of the row
+
+- It's possible you also would need to open bookmarks in a background tab when using that feature:
+
+- In the search box in the page, type or paste `browser.tabs.loadBookmarksInBackground` and pause while the list is filtered
+
+- Double-click the `browser.tabs.loadBookmarksInBackground` preference to switch the value from false to true -- if you decide to undo this later, you can double-click it again, or click the left-arching Reset arrow at the right end of the row 
 
 # Arch
 
